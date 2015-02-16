@@ -1,0 +1,10 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.jumbotron{
+	background-color: #CDE5CB;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+footer{
+	text-align: center;
+}
