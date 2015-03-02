@@ -56,7 +56,7 @@
                         </script>  
                     </div>
                 </li>
-                <li class="active"><a href="#">Mi perfil</a></li>
+                <li class="active"><a href="home.php?var=600">Mi perfil</a></li>
                 <li><a href="vista/salir.php">Salir</a></li>
             </ul>
         </div>
@@ -104,6 +104,9 @@
             }
             if ($var==10) {
                 include("vista/vmetasal9.php");   
+            }
+            if ($var==25) {
+                include("vista/vcambiopass.php");   
             }
             if ($var==250) {
                 include("vista/vejes.php");   
@@ -155,6 +158,9 @@
             }
             if ($var==575) {
                 include("vista/vinf15.php");   
+            }
+            if ($var==600) {
+                include("vista/miperfil.php");   
             }
           ?>
         </div>
