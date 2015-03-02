@@ -84,22 +84,22 @@
 				<tr>
 					<td colspan="2"><strong>Programación Meses</strong></td>
 					<td>
-						<strong>Enero</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Abril</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Julio</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Octubre</strong> <input name="valorpre" type="text" class="form-control inpfec">
+						<strong>Enero</strong> <input name="valorpre" type="checkbox"		value="Enero" 	class="form-control inpfec">
+						<strong>Abril</strong> <input name="valorpre" type="checkbox"		value="Abril" 	class="form-control inpfec">
+						<strong>Julio</strong> <input name="valorpre" type="checkbox"		value="Julio" 	class="form-control inpfec">
+						<strong>Octubre</strong> <input name="valorpre" type="checkbox" 	value="Octubre" class="form-control inpfec">
+					</<t></t>d>
+					<td>	
+						<strong>Febrero</strong> <input name="valorpre" type="checkbox" 	value="Febrero" class="form-control inpfec">
+						<strong>Mayo</strong> <input name="valorpre" type="checkbox" 		value="Mayo" 	class="form-control inpfec">
+						<strong>Agosto</strong> <input name="valorpre" type="checkbox" 		value="Agosto" 	class="form-control inpfec">
+						<strong>Noviembre</strong> <input name="valorpre" type="checkbox" 	value="Noviembre" class="form-control inpfec">
 					</td>
 					<td>
-						<strong>Febrero</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Mayo</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Agosto</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Noviembre</strong> <input name="valorpre" type="text" class="form-control inpfec">
-					</td>
-					<td>
-						<strong>Marzo</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Junio</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Septiembre</strong> <input name="valorpre" type="text" class="form-control inpfec">
-						<strong>Diciembre</strong> <input name="valorpre" type="text" class="form-control inpfec">
+						<strong>Marzo</strong> <input name="valorpre" type="checkbox" 		value="Marzo" 		class="form-control inpfec">
+						<strong>Junio</strong> <input name="valorpre" type="checkbox" 		value="Junio" 		class="form-control inpfec">
+						<strong>Septiembre</strong> <input name="valorpre" type="checkbox" 	value="Septiembre" 	class="form-control inpfec">
+						<strong>Diciembre</strong> <input name="valorpre" type="checkbox" 	value="Diciembre" 	class="form-control inpfec">
 					</td>
 				</tr>
 				<?php 
