@@ -18,9 +18,10 @@
 
 		if ($contdat == 1) 
 		{
-			$_SESSION["usuario"] = $datos[0]['nombre'];
-			$_SESSION["idUsuario"] = $datos[0]['documento'];
-			//$_SESSION["perfil"] = isset($datos[0]['perfil']) ? $datos[0]['perfil']:NULL;
+			$_SESSION["usuario"] 	= $datos[0]['nombre'];
+			$_SESSION["idUsuario"] 	= $datos[0]['documento'];
+			$_SESSION["perfil"] 	= isset($datos[0]['perfil']) ? $datos[0]['perfil']:NULL;
+			$_SESSION['imagen']		= $datos[0]['foto'];
 			$_SESSION["autenticado"] = 10;
 			echo "<script type='text/javascript'>window.location='../home.php';</script>";
 		}

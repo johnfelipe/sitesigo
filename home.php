@@ -159,6 +159,9 @@
             if ($var==575) {
                 include("vista/vinf15.php");   
             }
+            if ($var==590) {
+                include("vista/vusuario.php");   
+            }
             if ($var==600) {
                 include("vista/miperfil.php");   
             }

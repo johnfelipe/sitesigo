@@ -12,21 +12,24 @@ class musuario{
 		$conexionBD->ejeCon($c,1);
 	}
 	
-	function insusu($numdocusu, $nomusu, $password, $perfil, $estado)
+	function insusu($documento, $nombre, $email, $pass, $foto, $perfil)
 	{
-		$sql = "INSERT INTO  tbusuario (numdocusu, nomusu, password, perfil, estado) values ('".$numdocusu."','".$nomusu."','".$password."','".$perfil."','".$estado."');";
+		$sql = "INSERT INTO  tbusuario (documento, nombre, email, pass, foto, perfil) values ('".$documento."','".$nombre."','".$email."','".$pass."' ,'".$foto."','".$perfil."');";
 		$this->cons($sql);
 	}
+
 	function updusu($numdocusu, $nomusu, $apeusu, $passusu, $perusu, $estusu)
 	{
 		$sql = "UPDATE tbusuario SET nomusu='".$nomusu."', password='".$passusu."', perfil='".$perusu."', estado='".$estusu."' WHERE numdocusu ='".$numdocusu."';";
 		$this->cons($sql);
 	}
+
 	function updpass($numdocusu, $passusu)
 	{
 		$sql = "UPDATE tbusuario SET pass='".$passusu."' WHERE documento ='".$numdocusu."';";
 		$this->cons($sql);
 	}
+
 	function selusu()
 	{
 		$sql = "SELECT us.documento, us.nombre, p.nomper FROM tbusuario as us INNER JOIN tbperfil as p ON us.perfil=p.idperfil;";

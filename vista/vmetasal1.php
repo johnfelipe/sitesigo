@@ -88,7 +88,7 @@
 						<strong>Abril</strong> <input name="valorpre" type="checkbox"		value="Abril" 	class="form-control inpfec">
 						<strong>Julio</strong> <input name="valorpre" type="checkbox"		value="Julio" 	class="form-control inpfec">
 						<strong>Octubre</strong> <input name="valorpre" type="checkbox" 	value="Octubre" class="form-control inpfec">
-					</<t></t>d>
+					</td>
 					<td>	
 						<strong>Febrero</strong> <input name="valorpre" type="checkbox" 	value="Febrero" class="form-control inpfec">
 						<strong>Mayo</strong> <input name="valorpre" type="checkbox" 		value="Mayo" 	class="form-control inpfec">
