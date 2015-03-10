@@ -1,4 +1,7 @@
-<?php   include("modelo/mseguridad.php"); ?>
+<?php   
+    include("modelo/mseguridad.php"); 
+    include("functions.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -72,9 +75,12 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <?php
             $var =  isset($_GET["var"]) ? $_GET["var"]:NULL;
-            if (is_null($var)) {
-                include("vista/vpresentacion.php");
-            }
+            controller($var, compact('usuario'));
+            /*
+                if (is_null($var)) {
+                    include("vista/vpresentacion.php");
+                }
+            */
             if ($var==1) {
                 include("vista/vmetasprod.php");   
             }
@@ -108,9 +114,6 @@
             if ($var==25) {
                 include("vista/vcambiopass.php");   
             }
-            if ($var==250) {
-                include("vista/vejes.php");   
-            }
             if ($var==255) {
                 include("vista/vdeseco.php");   
             }
@@ -126,20 +129,8 @@
             if ($var==271) {
                 include("vista/vvigencia2012.php");   
             }
-            if ($var==290) {
-                include("vista/vpdm.php");   
-            }
-            if ($var==300) {
-                include("vista/vpa2015.php");   
-            }
             if ($var==350) {
                 include("vista/vrepseg.php");   
-            }
-            if ($var==400) {
-                include("vista/vindicedesem.php");   
-            }
-            if ($var==450) {
-                include("vista/vinfcuatri.php");   
             }
             if ($var==550) {
                 include("vista/vtabcont.php");   
@@ -158,9 +149,6 @@
             }
             if ($var==575) {
                 include("vista/vinf15.php");   
-            }
-            if ($var==590) {
-                include("vista/vusuario.php");   
             }
             if ($var==600) {
                 include("vista/miperfil.php");   

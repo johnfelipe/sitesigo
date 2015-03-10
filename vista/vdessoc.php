@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="row">
                         <div class="col-lg-6 margen">
-                            <a href="home.php?var=1" class="button button-3d-primary button-rounded font"> <strong>Salud</strong></a>
+                            <a href="vmetasprod" class="button button-3d-primary button-rounded font"> <strong>Salud</strong></a>
                         </div>
                     </div>
                     <div class="row">    

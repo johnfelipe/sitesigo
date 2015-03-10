@@ -11,7 +11,7 @@
 			    <h2>Menu Inicial</h2>
 			    <div class="row">
 			    	<div class="col-lg-12 margen">
-				    	<a href="home.php?var=290" class="btn btn-success font">Plan de Desarrollo Municipal</a>
+				    	<a href="home.php?var=vpdm" class="btn btn-success font">Plan de Desarrollo Municipal</a>
 				    </div>
 				</div>
 				<div class="row">    
@@ -21,7 +21,7 @@
 				</div>
 				<div class="row">    
 				    <div class="col-lg-12 margen">
-				    	<a href="home.php?var=300" class="btn btn-success font">Plan de accion 2015</a>
+				    	<a href="home.php?var=vpa2015" class="btn btn-success font">Plan de accion 2015</a>
 				    </div>
 				</div>
 				<div class="row">    
@@ -31,12 +31,12 @@
 				</div>    
 				<div class="row">
 					<div class="col-lg-12 margen">	
-				    	<a href="home.php?var=400" class="btn btn-success font">Indice de desempeño Integral</a>
+				    	<a href="home.php?var=vindicedesem" class="btn btn-success font">Indice de desempeño Integral</a>
 				    </div>
 				</div>    
 				<div class="row">    
 				    <div class="col-lg-12 margen">	
-				    	<a href="home.php?var=450" class="btn btn-success font">Información del cuatrienio</a>
+				    	<a href="home.php?var=vinfcuatri" class="btn btn-success font">Información del cuatrienio</a>
 			    	</div>
 			    </div>
 			</div>

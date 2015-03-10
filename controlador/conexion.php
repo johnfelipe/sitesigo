@@ -17,6 +17,7 @@ class conexion
 		if (!$db2){
 			echo "no se puede conectar db";
 		}
+		$acentos = mysql_query("SET NAMES 'utf8'");
 	}
 
 	function desconectarBD(){

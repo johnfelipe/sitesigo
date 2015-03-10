@@ -32,7 +32,7 @@ class musuario{
 
 	function selusu()
 	{
-		$sql = "SELECT us.documento, us.nombre, p.nomper FROM tbusuario as us INNER JOIN tbperfil as p ON us.perfil=p.idperfil;";
+		$sql = "SELECT us.documento, us.nombre, us.email, us.foto, p.nomper FROM tbusuario as us INNER JOIN tbperfil as p ON us.perfil=p.idperfil;";
 		$conexionBD = new conexion();
 		$conexionBD->conectarBD();
 		$data = $conexionBD->ejeCon($sql,0);
