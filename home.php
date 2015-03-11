@@ -59,7 +59,7 @@
                         </script>  
                     </div>
                 </li>
-                <li class="active"><a href="home.php?var=600">Mi perfil</a></li>
+                <li class="active"><a href="miperfil">Mi perfil</a></li>
                 <li><a href="vista/salir.php">Salir</a></li>
             </ul>
         </div>
@@ -113,18 +113,6 @@
             }
             if ($var==25) {
                 include("vista/vcambiopass.php");   
-            }
-            if ($var==255) {
-                include("vista/vdeseco.php");   
-            }
-            if ($var==260) {
-                include("vista/vseguconv.php");   
-            }
-            if ($var==265) {
-                include("vista/vgobern.php");   
-            }
-            if ($var==270) {
-                include("vista/vambiente.php");   
             }
             if ($var==271) {
                 include("vista/vvigencia2012.php");   
